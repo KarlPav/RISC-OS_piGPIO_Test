@@ -16,6 +16,7 @@ int read_gpio(int pin);
 void write_gpio(int pin, int value);
 int readOE_gpio(int pin);
 void writeOE_gpio(int pin, int value);
+int features_gpio(void);
 
 int main(void)
 {
